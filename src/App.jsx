@@ -5,7 +5,9 @@ import { useState, useEffect } from 'react'
 // import './App.css'
 // import { API_KEY, BASE_URL } from './config/config'
 // import { GetCount } from './api/get'
-import {Count} from './components/GetCount'
+
+import Credits from './components/Credits/GetCredits'
+import Models from './components/Models/GetModels'
 
 function App() {
   // // const [count, setCount] = useState(0)
@@ -15,7 +17,12 @@ function App() {
   return (
     <>
       <h1>Hello!</h1>
-      <Count/>
+      <br />
+      <br />
+      <Credits/>
+      <br />
+      <br />
+      <Models/>
     </>
   )
 }
